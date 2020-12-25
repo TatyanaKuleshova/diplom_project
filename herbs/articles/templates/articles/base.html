@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="травы, травничество, фитотерапия, фитооздоровление, еще придумать" />
+    <title>Главная</title>
+    <link rel="stylesheet" href="/static/articles/style.css" type="text/css">
+    <link href="https://allfont.ru/allfont.css?fonts=andantino-script" rel="stylesheet" type="text/css" />
+</head>
+<body id="page">
+<header>
+    <div id="header">
+        <div class="image">
+        <img src="/static/articles/herbs.jpg" width="30%" height="150px" align="left" class="align-left" />
+        </div>
+        <div class="h1">
+        <h1>Уголок травника</h1>
+        </div>
+        <div class="forma">
+        <form action="/registration" method="get" class="forma">
+            Вход на сайт<br>
+            <label for="login">Login: </label>
+            <input type="text" name="form_name" value="" /><br>
+            <label for="password">Password: </label>
+            <input type="password" name="form_pass" value="" maxlength="10" />
+            <input type="submit" value="ОK" />
+            <a href="/registration" class="reg">Зарегистрироваться</a>
+
+        </form>
+        </div>
+
+    </div>
+</header>
+
+<div>
+<nav>
+    <ul>
+        <li><a href="/"> Главная </a></li>
+        <li><a href="/properties">Свойства трав</a></li>
+        <li><a href="/catalog">Алфавитный указатель</a></li>
+        <li><a href="/literatura">Полезные ссылки</a></li>
+        <li><a href="/article">Статьи</a></li>
+    </ul>
+</nav>
+</div>
+
+{% block content %}
+
+{% endblock %}
+
+
+<footer>
+    Copyright &copy; 2020
+    Made by Tatyana Kuleshova<br>
+    Сделано на Django
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,33 @@
+{% extends 'articles/base.html' %}
+
+{% block content %}
+
+<div>
+    <div>
+    <p>Здесь будет текст</p>
+    <p>Ваши статьи</p>
+    <p>Форма для добавления статьи</p>
+    </div>
+    <div>
+    <h3>Добавьте статью</h3>
+    <form action="" method="post">
+        <p><label for="article_name">Название статьи</label></p>
+        <p><input type="text" name="article_name" value="" maxlength="50" /></p>
+        <p><label for="tags">Выберите теги</label></p>
+        <p><select name="tags">
+            <option value="herbs">herbs</option>
+            <option value="herbalism">травничество</option>
+            <option value="fitoterapi">фитотерапия</option>
+        </select></p>
+        <p><label for="art">Текст статьи</label></p>
+        <p><textarea></textarea></p>
+        <p><input type="submit" value="Отправить" /></p>
+
+
+    </form>
+    </div>
+
+</div>
+
+{% endblock %}
+

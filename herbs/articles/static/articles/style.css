@@ -1,0 +1,115 @@
+body {
+    background-color: #efefef;
+    font-family: Georgia, Times, serif;
+}
+
+#page {
+    max-width: 1000px;
+    min-width: 720px;
+    margin: 10px auto 10px auto;
+    padding: 20px;
+}
+
+footer {
+    width: 98%;
+    max-width: 1000px;
+    clear: both;
+    text-align: right;
+    padding: 20px;
+    border-top: 2px solid black;
+    position: fixed;
+    top: 90%;
+}
+
+#header {
+    width: 1000px;
+    height: 150px;
+}
+
+.image {
+    margin: 0px auto 10px auto;
+    margin: 0;
+}
+
+.h1 {
+    font-family: 'Andantino script', arial;
+    font-weight: normal;
+    font-size: 30px;
+    float: left;
+    width: 400px;
+    color: #228B22;
+    padding: 0;
+    margin: 0;
+}
+
+.forma {
+    max-width: 200px;
+    float: right;
+    padding: 20px 0px 10px 0px;
+}
+
+ul {
+    width: 1000px;
+    padding: 15px;
+    margin: 0px auto 0px auto;
+    border-top: 2px solid #000;
+    border-bottom: 1px solid #000;
+    text-align: center;
+}
+
+li {
+    display: inline;
+    margin: 0px 3px;
+}
+
+p {
+    text-decoration: none;
+    text-align: justify;
+    color: #000000;
+    width: 1000px;
+    margin: 20px auto 20px auto;
+    font-weight: normal;
+}
+
+nav {
+    color: #000000;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 6px 18px 5px 18px;
+}
+
+a:hover, a.on {
+    color: #cc3333;
+    background-color: #ffffff;
+}
+
+h2, h3 {
+    font-family: Georgia, Times, serif;
+    text-align: center;
+
+}
+
+h2 {
+    font-size: 20px;
+}
+
+h3 {
+    font-size: 16px;
+}
+
+.label {
+    display: inline-block;
+    width: 20em;
+    vertical-align: top;
+    text-align: right;
+    margin-right: 15px;
+
+}
+
+.submit {
+    margin-left: 220px;
+    padding: 3px 15px;
+    font-size: 1em;
+    color: black;
+}
+
